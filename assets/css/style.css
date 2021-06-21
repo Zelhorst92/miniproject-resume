@@ -38,6 +38,14 @@
     background-color: #525252;
 }
 
+.ui-menu-color-github {
+    background-color: #1c4a6c;
+}
+
+.ui-menu-color-interests {
+    background-color: #e74c3c;
+}
+
 /* --------------------------------------------- Special paddings/margins/text */
 
 h1,h2,h3,h4 {
@@ -142,7 +150,7 @@ header {
 .menuitem a {
     width: 100%;
     text-decoration: none;
-    color: white;
+    color: #ffffff;
     height: 120px;
 }
 
