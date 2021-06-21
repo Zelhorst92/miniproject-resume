@@ -8,6 +8,7 @@ function sendMail(contactForm) {
     .then(
         function(response) {
             console.log("Email send successfully!", response);
+            contactForm.reset();
         },
         function(error) {
             console.log("Epic Fail, Email not send.", error);
